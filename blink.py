@@ -4,7 +4,7 @@ import RPi.GPIO as GPIO
 LED_PIN = 18
 LED_STATE = True
 
-GPIO.setup(LED_PIN, GPIO.out)
+GPIO.setup(LED_PIN, GPIO.OUT)
 
 def loop():
   GPIO.output(LED_PIN, LED_STATE)
