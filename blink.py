@@ -8,7 +8,7 @@ GPIO.setup(LED_PIN, GPIO.out)
 
 def loop():
   GPIO.output(LED_PIN, LED_STATE)
-  LED_STATE = !LED_STATE
+  LED_STATE = not LED_STATE
   time.sleep(500)
 
 if __name__ == '__main__':
