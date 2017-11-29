@@ -1,3 +1,6 @@
-import Adafruit_GPIO
+import Adafruit_GPIO.Platform as Platform
 
-print("Hello World")
+platform = Platform.platform_detect()
+
+print("Diagnostics:\n")
+print("Platform: " + platform)
