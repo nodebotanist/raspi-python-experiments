@@ -1,5 +1,5 @@
 import time
-import Adafruit_GPIO as GPIO
+import RPi.GPIO as GPIO
 
 LED_PIN = 18
 LED_STATE = True
